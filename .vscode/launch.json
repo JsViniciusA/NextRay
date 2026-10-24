@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Build completo (site + arquivo de 160 MB)",
+      "program": "${workspaceFolder}/build.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Ver o site no navegador (localhost:5173)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "preview"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

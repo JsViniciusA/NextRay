@@ -1,0 +1,12 @@
+{
+  "name": "nextray-landing",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Landing page e lista de espera do NextRay + simulação do servidor cego (Zero-Knowledge)",
+  "scripts": {
+    "build": "node build.js",
+    "build:site": "node build.js --sem-dados",
+    "preview": "node build.js --sem-dados && node serve.js"
+  },
+  "engines": { "node": ">=18" }
+}
